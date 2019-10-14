@@ -1,0 +1,32 @@
+:root{
+    --dark-color: #f2a6a6;
+    --light-color: #f1c6e7;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-container{
+    background: linear-gradient(to bottom, var(--dark-color), var(--light-color));
+    height: 450px;
+}
+
+.top-wrapper{
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cloud{
+    position: absolute;
+}
+
+.mountain{
+    position: absolute;
+    bottom: 0%;
+    left: 13%;
+}
