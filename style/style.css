@@ -65,3 +65,16 @@ h1{
 .profile_image{
     width: 100px;
 }
+.skills img{
+    width: 100px;
+}
+.img-skill1{
+    float: left;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.img-skill2{
+    float: right;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
